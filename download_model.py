@@ -1,8 +1,3 @@
-#### `download_model.py`
-
-This script downloads a quantized, 2.7GB Text-to-SQL model so you can run the AI locally.
-
-```python
 import os
 from huggingface_hub import hf_hub_download
 
