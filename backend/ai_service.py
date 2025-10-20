@@ -19,7 +19,7 @@ try:
     llm = AutoModelForCausalLM.from_pretrained(
         MODEL_PATH,
         model_type='llama',
-        context_length=2048  # <-- ADD THIS LINE
+        context_length=4096
     )
     print("AI Text-to-SQL model loaded successfully.")
 except Exception as e:
