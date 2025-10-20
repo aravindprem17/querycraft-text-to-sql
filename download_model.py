@@ -3,7 +3,7 @@ from huggingface_hub import hf_hub_download
 
 # Define the model name and the specific GGUF file
 MODEL_REPO = "TheBloke/sqlcoder-7B-GGUF"
-MODEL_FILE = "sql-coder-7b.Q2_K.gguf"
+MODEL_FILE = "sqlcoder-7b.Q4_K_M.gguf"
 MODEL_PATH = "models"
 
 def download_model():
