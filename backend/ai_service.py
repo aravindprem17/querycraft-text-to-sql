@@ -16,7 +16,11 @@ except FileNotFoundError:
 # --- AI Model Initialization ---
 try:
     # Initialize the model from the local file
-    llm = AutoModelForCausalLM.from_pretrained(MODEL_PATH, model_type='llama')
+    llm = AutoModelForCausalLM.from_pretrained(
+        MODEL_PATH,
+        model_type='llama',
+        context_length=2048  # <-- ADD THIS LINE
+    )
     print("AI Text-to-SQL model loaded successfully.")
 except Exception as e:
     print(f"Failed to load AI model: {e}")
