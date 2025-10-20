@@ -3,7 +3,7 @@ import os
 from .db_executor import get_db_schema
 
 # Path to the downloaded model
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "models", "sql-coder-7b.Q2_K.gguf")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "models", "sqlcoder-7b.Q4_K_M.gguf") # <-- CORRECT FILENAME
 
 # --- Database Schema ---
 # We get the schema once when the server loads
