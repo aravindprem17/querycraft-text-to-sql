@@ -1,0 +1,14 @@
+# Backend (FastAPI)
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# Gen AI (Text-to-SQL)
+ctransformers
+huggingface-hub
+
+# Frontend (UI)
+streamlit
+requests
+plotly
